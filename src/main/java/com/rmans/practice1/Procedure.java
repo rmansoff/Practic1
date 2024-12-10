@@ -1,6 +1,3 @@
-package com.rmans.practice1;
-
-
 public class Procedure {
    
     private int number;
