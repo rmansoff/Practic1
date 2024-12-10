@@ -1,3 +1,5 @@
+package com.rmans.practice1.model;
+
 public class Procedure {
    
     private int number;
