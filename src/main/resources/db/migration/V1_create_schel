@@ -1,4 +1,4 @@
-CREATE TABLE schedule (
+CREATE TABLE procedure (
     id BIGSERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
     description TEXT,
