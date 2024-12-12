@@ -1,0 +1,31 @@
+{
+  "MONDAY": [
+    {
+      "id": 1,
+      "name": "Back Massage",
+      "duration": 30,
+      "cost": 250.00,
+          "dayOfWeek": "MONDAY"
+    },
+    {
+      "id": 2,
+      "name": "Facial Cleaning",
+      "duration": 60,
+      "cost": 400.00,
+          "dayOfWeek": "MONDAY"
+    }
+  ],
+  "TUESDAY": [
+    {
+      "id": 3,
+      "name": "Manicure",
+      "duration": 45,
+      "cost": 200.00,
+          "dayOfWeek": "TUESDAY"
+    }
+  ],
+  "WEDNESDAY": [],
+    "THURSDAY":[],
+    "FRIDAY": []
+  // ... other days
+}
