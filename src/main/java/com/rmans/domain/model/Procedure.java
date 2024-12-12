@@ -1,4 +1,4 @@
-package com.rmans.practice1.model;
+package com.rmans.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

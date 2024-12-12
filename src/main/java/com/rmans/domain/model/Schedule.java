@@ -1,4 +1,5 @@
-package com.rmans.model;
+package com.rmans.domain.model;
+
 
 import java.time.LocalDateTime;
 

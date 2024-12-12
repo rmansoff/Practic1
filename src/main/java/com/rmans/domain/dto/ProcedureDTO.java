@@ -1,21 +1,30 @@
-package com.rmans.dto;
+package com.rmans.domain.dto;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 public class ProcedureDTO {
+
     @NotNull
-    @Size(min = 3, max = 100)
     private String name;
 
-    @NotNull
-    private String startTime;
-
-    @NotNull
-    private String endTime;
-
-    @NotNull
-    private String dayOfWeek;
+    @Size(min = 5, max = 100)
+    private String description;
 
     // Геттери та сеттери
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
