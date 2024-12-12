@@ -1,12 +1,31 @@
 {
-    "id": 1,
-    "name": "Операція на серці",
-    "description": "Процедура з виконання хірургічного втручання на серці.",
-    "procedureType": "Хірургічна",
-    "status": "Активна",
-    "createdAt": "2024-12-11T12:00:00",
-    "updatedAt": "2024-12-11T15:00:00",
-    "doctorId": 101,
-    "patientId": 5001
-  }
-  
+  "MONDAY": [
+    {
+      "id": 1,
+      "name": "Back Massage",
+      "duration": 30,
+      "cost": 250.00,
+          "dayOfWeek": "MONDAY"
+    },
+    {
+      "id": 2,
+      "name": "Facial Cleaning",
+      "duration": 60,
+      "cost": 400.00,
+          "dayOfWeek": "MONDAY"
+    }
+  ],
+  "TUESDAY": [
+    {
+      "id": 3,
+      "name": "Manicure",
+      "duration": 45,
+      "cost": 200.00,
+          "dayOfWeek": "TUESDAY"
+    }
+  ],
+  "WEDNESDAY": [],
+    "THURSDAY":[],
+    "FRIDAY": []
+  // ... other days
+}

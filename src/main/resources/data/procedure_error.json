@@ -1,15 +1,14 @@
 {
-    "status": "error",
-    "message": "Помилка валідації",
-    "details": [
-      {
-        "field": "name",
-        "error": "Назва процедури не може бути порожньою"
-      },
-      {
-        "field": "description",
-        "error": "Опис процедури має бути не більше 500 символів"
-      }
-    ]
-  }
-  
+  "errors": [
+    {
+      "field": "name",
+      "message": "Procedure name is required",
+      "code": "REQUIRED_FIELD"
+    },
+    {
+      "field": "duration",
+      "message": "Procedure duration must be between 1 and 120 minutes",
+      "type": "OUT_OF_RANGE"
+    }
+  ]
+}
