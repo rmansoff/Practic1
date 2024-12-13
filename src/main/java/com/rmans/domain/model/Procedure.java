@@ -1,5 +1,10 @@
-package com.rmans.practice1;
+package com.rmans.domain.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "procedures")
 
 public class Procedure {
    
